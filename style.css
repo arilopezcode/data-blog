@@ -10,17 +10,22 @@
    ================================================================= */
 
 /* ---- Dark theme (default) ---- */
-[data-theme="dark"] {
-  --bg: #1f2220;
-  --bg-soft: #2b2f2c;
+[data-theme="light"] {
+  --bg: #fff1f6;
+  --bg-soft: #ffffff;
 
-  --text: #f2ede7;
-  --text-muted: #c8c1bb;
+  --border: #f4d0dc;
 
-  --accent: #b7c9ae;
-  --accent-2: #e7c0cc;
+  --text: #4d3b42;
+  --text-muted: #8e6f7a;
 
-  --border: #454c47;
+  /* sage green */
+  --accent: #a8b89f;
+
+  /* pink */
+  --accent-2: #e39ab5;
+
+  --shadow: rgba(168,184,159,.15);
 }
 
 /* ---- Light theme ---- */
