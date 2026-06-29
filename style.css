@@ -11,26 +11,31 @@
 
 /* ---- Dark theme (default) ---- */
 [data-theme="dark"] {
-  --bg:          #0d1117;
-  --bg-soft:     #161b22;
-  --border:      #283039;
-  --text:        #e6edf3;
-  --text-muted:  #9aa7b4;
-  --accent:      #6ee7b7;          /* mint-green accent */
-  --accent-2:    #38bdf8;          /* sky-blue accent   */
-  --shadow:      rgba(0, 0, 0, 0.4);
+  --bg: #1f2220;
+  --bg-soft: #2b2f2c;
+
+  --text: #f2ede7;
+  --text-muted: #c8c1bb;
+
+  --accent: #b7c9ae;
+  --accent-2: #e7c0cc;
+
+  --border: #454c47;
 }
 
 /* ---- Light theme ---- */
 [data-theme="light"] {
-  --bg:          #ffffff;
-  --bg-soft:     #f4f6f8;
-  --border:      #e2e8f0;
-  --text:        #1a202c;
-  --text-muted:  #5a6b7b;
-  --accent:      #0d9488;
-  --accent-2:    #0369a1;
-  --shadow:      rgba(0, 0, 0, 0.08);
+  --bg: #faf7f5;
+  --bg-soft: #ffffff;
+  --border: #e7ddd7;
+
+  --text: #3f3c39;
+  --text-muted: #756f69;
+
+  --accent: #a8b89f;      /* sage green */
+  --accent-2: #e8c8cf;    /* baby pink */
+
+  --shadow: rgba(0,0,0,.08);
 }
 
 /* ---- Base ---- */
@@ -70,9 +75,9 @@ h1, h2, h3 { line-height: 1.25; }
 }
 
 .brand {
-  font-family: "SF Mono", Menlo, Consolas, monospace;
-  font-weight: 700;
+  font-family: Georgia, serif;
   color: var(--accent);
+  font-weight: 600;
 }
 .brand:hover { text-decoration: none; }
 
@@ -94,7 +99,11 @@ h1, h2, h3 { line-height: 1.25; }
 .hero, .section, .footer { max-width: 820px; margin: 0 auto; padding: 0 1.5rem; }
 
 /* ---- Hero ---- */
-.hero { text-align: center; padding-top: 5rem; padding-bottom: 3rem; }
+.hero {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+`
 
 .kicker {
   font-family: "SF Mono", Menlo, Consolas, monospace;
@@ -127,8 +136,8 @@ h1, h2, h3 { line-height: 1.25; }
 .btn:hover { transform: translateY(-2px); text-decoration: none; }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #04141a;
+  background: var(--accent);
+  color: #ffffff;
 }
 .btn-ghost { border-color: var(--border); color: var(--text); }
 
