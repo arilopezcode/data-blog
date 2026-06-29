@@ -10,28 +10,25 @@
    ================================================================= */
 
 /* ---- Dark theme (default) ---- */
-[data-theme="light"] {
-  --bg: #fff1f6;
-  --bg-soft: #ffffff;
+[data-theme="dark"] {
+  --bg: #2b2623;
+  --bg-soft: #3a3430;
 
-  --border: #f4d0dc;
+  --text: #f3ebe4;
+  --text-muted: #c8bbb3;
 
-  --text: #4d3b42;
-  --text-muted: #8e6f7a;
+  --accent: #a8b89f;   /* sage green */
+  --accent-2: #e39ab5; /* pink */
 
-  /* sage green */
-  --accent: #a8b89f;
+  --border: #524a45;
 
-  /* pink */
-  --accent-2: #e39ab5;
-
-  --shadow: rgba(168,184,159,.15);
+  --shadow: rgba(0, 0, 0, 0.25);
 }
 
 /* ---- Light theme ---- */
 [data-theme="light"] {
   /* background */
-  --bg: #fff1f6;
+  --bg: #faf8f1;
   --bg-soft: #ffffff;
 
   /* text */
@@ -135,7 +132,7 @@ h1, h2, h3 { line-height: 1.25; }
 .hero h1 {
   font-size: clamp(3rem, 6vw, 4.5rem);
   margin: 0.25rem 0;
-  color: var(--accent-2);
+  color: var(--accent);
 }
 
 .tagline {
