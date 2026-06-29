@@ -32,7 +32,7 @@
   --text: #3f3c39;
   --text-muted: #756f69;
 
-  --accent: #a8b89f;      /* sage green */
+  --accent: #8ea584;      /* sage green */
   --accent-2: #e8c8cf;    /* baby pink */
 
   --shadow: rgba(0,0,0,.08);
@@ -96,12 +96,14 @@ h1, h2, h3 { line-height: 1.25; }
 }
 
 /* ---- Layout ---- */
-.hero, .section, .footer { max-width: 820px; margin: 0 auto; padding: 0 1.5rem; }
+.hero, .section, .footer {
+    max-width: 1000px;
+}
 
 /* ---- Hero ---- */
 .hero {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 `
 
