@@ -11,37 +11,38 @@
 
 /* ---- Dark theme (default) ---- */
 [data-theme="dark"] {
-  --bg: #2b2623;
+  --bg: #1f2520;          /* dark green-black */
 
-  --bg-soft: #3a3430;
+  --bg-soft: #2a312b;
 
-  --text: #f3ebe4;
+  --text: #efe6dc;        /* warm cream */
 
-  --text-muted: #c8bbb3;
+  --text-muted: #b8ada3;
 
-  --accent: #a8b89f;    /* same sage green */
-  --accent-2: #d9a4b6;  /* same pink */
+  --accent: #9eb193;      /* sage */
 
-  --border: #524a45;
+  --accent-2: #c06a8b;    /* rose */
 
-  --shadow: rgba(0, 0, 0, 0.25);
+  --border: #3b433c;
+
+  --shadow: rgba(0,0,0,.25);
 }
 
 /* ---- Light theme ---- */
 [data-theme="light"] {
-  --bg: #f8f6f0;        /* warm cream */
+  --bg: #f5f1ea;          /* warm cream */
 
   --bg-soft: #ffffff;
 
-  --text: #4f433d;      /* brown */
-  --text-muted: #7a6e67;
+  --text: #4a3f39;        /* rich brown */
+  --text-muted: #7b6f68;
 
-  --accent: #a8b89f;    /* sage green */
-  --accent-2: #d9a4b6;  /* soft pink */
+  --accent: #66785f;      /* dark sage green */
+  --accent-2: #8b3f5c;    /* dark rose/magenta */
 
-  --border: #e6dfd5;
+  --border: #ddd5ca;
 
-  --shadow: rgba(168, 184, 159, 0.15);
+  --shadow: rgba(0,0,0,.08);
 }
 
 /* ---- Base ---- */
