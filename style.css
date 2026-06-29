@@ -30,18 +30,22 @@
 
 /* ---- Light theme ---- */
 [data-theme="light"] {
-  --bg: #fff7f9;
+  /* background */
+  --bg: #fff1f6;
   --bg-soft: #ffffff;
 
-  --border: #f1d5dc;
+  /* text */
+  --text: #4f433d;       /* warm brown */
+  --text-muted: #7a6e67; /* soft tan */
 
-  --text: #4c3b40;
-  --text-muted: #876e76;
+  /* accents */
+  --accent: #a8b89f;     /* sage green */
+  --accent-2: #e29cb5;   /* dusty pink */
 
-  --accent: #e7b8c7;
-  --accent-2: #d89fb1;
+  /* borders */
+  --border: #ead7de;
 
-  --shadow: rgba(216,159,177,.15);
+  --shadow: rgba(168, 184, 159, 0.15);
 }
 
 /* ---- Base ---- */
@@ -128,7 +132,11 @@ h1, h2, h3 { line-height: 1.25; }
   margin-bottom: 0.5rem;
 }
 
-.hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0.25rem 0; }
+.hero h1 {
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  margin: 0.25rem 0;
+  color: var(--accent-2);
+}
 
 .tagline {
   font-size: 1.15rem;
